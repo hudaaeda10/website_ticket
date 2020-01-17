@@ -1,0 +1,106 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+/* selesai import font  */
+
+/* global style */
+body {
+    background: #F6F7FB;    
+}
+
+.side-left {
+    
+}
+
+.side-left .shortcut{
+    width: 70px;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(37,149,245,1) 0%, rgba(32,61,209,1) 100%);
+}
+
+.title-input-type-primary-tiketsaya {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    color: #21272C;
+}
+
+.input-type-primary-tiketsaya {
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+    color: #21272C;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-type-primary-tiketsaya:focus {
+    background: #D0D7FF;
+    border: 1px solid #203DD1;
+    color: #203DD1;
+}
+
+.btn-primary-tiketsaya {
+    background: #203DD1;
+    border: 0;
+    width: 145px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+    margin-top: 30px;
+    -webkit-box-shadow: 0px 3px 9px 0px rgba(32,61,209,0.21);
+    -moz-box-shadow: 0px 3px 9px 0px rgba(32,61,209,0.21);
+    box-shadow: 0px 3px 9px 0px rgba(32,61,209,0.21);
+}
+
+.btn-primary-tiketsaya:hover {
+    background: rgb(23, 45, 153);
+    border: 0;
+}
+
+/* Global Style */
+
+.header-sign-in {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header-sign-in .logo-header {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.form-sign-in {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 0%, rgba(234,233,233,0.4297168174486482) 0%);
+    height: 500px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.form-sign-in .icon-header {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.form-sign-in .title-form {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #21272C;
+}
+
+.form-sign-in .subtitle-form {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: #b4b4b4;
+}
+
+.form-sign-in .content-sign-in {
+    margin-top: 30px;
+}
