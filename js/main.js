@@ -1,54 +1,16 @@
-// type data pada javascript
-// string, number, Object
+var sl_ap = document.getElementById('sl_ap');
 
-// type data string
-var namaSaya = "Huda Izzatul Haq ";
+// sl_ap.style.opacity = 0;
+// sl_ap.style.visibility = "hidden";
 
-// type data number
-var umurSaya = 21;
+// function showAdminProfile() {
+//     sl_ap.style.opacity = 1;
+//     sl_ap.style.visibility = "visible";
+//     sl_ap.style.transition = "all 0.8s";
+// }
 
-// type data Object
-var kekasihSaya = {
-    namaDia: "anonim",
-    umurDia: 20,
-    jenisKelamin: "Prempuan"
-}
-// operator aritmatika
-
-// Mengingat seseorang mengisi wallet 
-function pengingatUserWallet(myBalance, totalHarga){
-    var totalKembalian = myBalance - totalHarga;
-    document.getElementById("user_login").innerHTML = namaSaya + ' Total Kembalian : ' + totalKembalian;
-}
-pengingatUserWallet(200, 250);
-
-// Membuat Object
-var pengguna = {
-    namaUser: "Aelita",
-    jumlahWisata : 3,
-    totalBalance : 12
-};
-
-//membuat array
-var cars = ["BMW", "Avanza", "Toyota", "Ferrari" ];
-// Menghapus data array
-cars.pop();
-console.log(cars);
-
-// Mengganti array // cars[2] = "Angkot";
-// Menambah array di bagian paling belakangc// cars.push("Audi");   
-
-
-
-function bindingPengguna() {
-    document.getElementById("nama_user").innerHTML =pengguna.namaUser;
-    document.getElementById("jumlah_wisata").innerHTML =pengguna.jumlahWisata;
-}
-
-bindingPengguna();
-
-// Membuat function openTicket
-function openTicket() {
-    alert('Halaman belum bisa digunakan!');
-    window.location.replace('login.html');
-}
+// function hiddenAdminProfile() {
+//     sl_ap.style.opacity = 0;
+//     sl_ap.style.visibility = "hidden";
+//     sl_ap.style.transition = "all 0.8s";
+// }
